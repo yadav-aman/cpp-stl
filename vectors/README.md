@@ -1,5 +1,15 @@
 # Vectors
 
+## Taking Input
+```cpp
+int n;
+cin>>n;
+vector<int> v(n); // v = {0,0,0,0,...}
+for(int& e: v){
+    cin>>e;
+}
+```
+
 ## Sort a vector
 ```cpp
 // in ascending order
