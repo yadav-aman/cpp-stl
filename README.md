@@ -1,5 +1,28 @@
 # C++ STL
 
+---
+
+# Functions
+
+- ## __gcd(a,b)
+- ## memset() 
+	> Used to initialize an array to either **0 or -1**. Works on any dimentional array.
+    ```cpp
+    int arr[5];
+	memset(arr, 0, sizeof(arr)); // {0,0,0,0,0}
+	memset(arr, -1, sizeof(arr)); // {-1,-1,-1,-1,-1}
+
+    char str[] = "cpp";
+    memset(str, 'd', sizeof(str)); // ddd
+
+    int arr2[3][3];
+    memset(arr2, -1, sizeof(arr2));
+    // -1 -1 -1
+    // -1 -1 -1
+    // -1 -1 -1
+    ```
+---
+
 ## Complexities
 | Container                     | Insertion                                                      | Access            | Delete                    | Search                          | Persistent Iterator |
 |-------------------------------|----------------------------------------------------------------|-------------------|---------------------------|---------------------------------|---------------------|
