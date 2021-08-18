@@ -26,6 +26,13 @@ for(int i = 0; i < 2; i++){
 // 10 10 10
 ```
 
+## Size of a vector
+
+```cpp
+arr.size() // 5
+arr2.size() // 2
+```
+
 ## Sort a vector
 ```cpp
 // in ascending order
