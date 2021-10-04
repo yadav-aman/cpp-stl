@@ -17,13 +17,13 @@ vector<int> arr(5,3); // {3,3,3,3,3}
 
 vector< vector<int> > arr2(2, vector<int> (4,10));
 for(int i = 0; i < 2; i++){
-    for(int j = 0; j < 3; j++){
-        cout << arr[i][j] << " ";
+    for(int j = 0; j < 4; j++){
+        cout << arr2[i][j] << " ";
     }
     cout<< endl;
 }
-// 10 10 10
-// 10 10 10
+// 10 10 10 10
+// 10 10 10 10
 ```
 
 ## Size of a vector
