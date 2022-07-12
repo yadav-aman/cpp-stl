@@ -40,6 +40,7 @@ sort(vect.begin(), vect.end());
 
 // in descending order
 sort(vect.begin(), vect.end(), greater<int>());
+sort(vect.rbegin(), vect.rend());
 ```
 
 ## Convert an Array to Vector
@@ -62,4 +63,16 @@ unordered_set<int> s;
 for(int i: vect)
     s.insert(i);
 vect.assign(s.begin(),s.end());
+```
+
+## Sum of all elements in a vector
+```cpp
+int sum = accumulate(vect.begin(), vect.end(), 0);
+```
+## Partial Sum of a vector
+```cpp
+partial_sum(vect.begin(), vect.end(), vect.begin());
+
+vector<int> ps(vect.size());
+partial_sum(vect.begin(), vect.end(), ps.begin());
 ```
